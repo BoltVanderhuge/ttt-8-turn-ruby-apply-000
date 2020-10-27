@@ -13,7 +13,7 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, character = "X")
     display_board(board)
-  else input = gets.strip
+  else turn
 end
 end
 
