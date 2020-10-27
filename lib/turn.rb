@@ -15,7 +15,7 @@ def turn(board)
      move(board,index,X)
      display_board(board)
      Else input=get_strip
-end
+    end
 end
 
 
